@@ -33,7 +33,7 @@ class App extends React.Component {
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} /> 
-        <Footer children={'Covid19 Stats Dashboard'}/>
+        <Footer children={<a href="https://github.com/Ejiro-Edwin">Covid19 Dashboard</a>} />
       </div>
     );
   }
